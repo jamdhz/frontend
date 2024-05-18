@@ -1,0 +1,434 @@
+
+/* Header */
+header {
+    margin: 0;
+    font-family: 'Inknut Antiqua';
+}
+
+header .container {
+    background-color: #031726;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 60px 50px;
+}
+
+/* @media (max-width: 991px) {
+    .container {
+        padding: 0 20px;
+    }
+} */
+
+header .main-section {
+    border-radius: 84px;
+    background-color: #172b3a;
+    margin-top: 40px;
+    width: 1248px;
+    max-width: 100%;
+    padding: 16px 35px 16px 80px;
+}
+
+@media (max-width: 991px) {
+    header .main-section {
+        padding: 0 20px;
+    }
+}
+
+header .content {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    header .content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+header .nav-section {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+@media (max-width: 991px) {
+    header .nav-section {
+        width: 100%;
+    }
+}
+
+header .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+header .nav-links .nav-item-home{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+header .nav-links .nav-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 30px;
+    text-align: center;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+header .nav-links img {
+    aspect-ratio: 1;
+    width: 94px;
+}
+
+@media (max-width: 991px) {
+    header .nav-links {
+        max-width: 100%;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+}
+
+header .login-section {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    header .login-section {
+        width: 100%;
+    }
+}
+
+header .login-container {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto 0;
+}
+header .login-container .login-item{
+    font-size: 25px;
+    color: #fff;
+    opacity: 70%;
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    header .login-container {
+        margin-top: 40px;
+        white-space: initial;
+    }
+}
+
+header .sidebar-separator {
+    background-color: rgba(217, 217, 217, 0.8);
+    width: 1px;
+    height: 64px;
+}
+
+header .login-container img {
+    aspect-ratio: 0.98;
+    width: 70px;
+}
+/* Akhir Header */
+
+body {
+    background-color: #031726;
+}
+
+/* Home.html */
+main .homehtml{
+    background-color: #031726;
+
+}
+
+main .homehtml .top-section{
+    margin: 0px;
+}
+
+main .homehtml .top-section .tagline p{
+    margin: 0 0 0 0;
+    font-family: 'Inknut Antiqua';
+    font-size: 75px;
+    text-align: center;
+    color:#fff;
+    opacity: 80%;
+    font-weight: bolder;
+}
+
+main .homehtml .top-section .slogo p{
+    font-family: 'Inknut Antiqua';
+    font-size: 25px;
+    text-align: center;
+    color:#fff;
+    opacity: 70%;
+    margin: 0 0 0 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #031726;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 68px 80px 15px;
+}
+
+@media (max-width: 991px) {
+    footer {
+        padding: 0 20px;
+    }
+}
+
+footer .separator {
+    background-color: #d9d9d9;
+    width: 1078px;
+    max-width: 100%;
+    height: 1px;
+}
+
+footer .main-content {
+    margin-top: 28px;
+    width: 100%;
+    max-width: 1225px;
+}
+
+@media (max-width: 991px) {
+    footer .main-content {
+        max-width: 100%;
+    }
+}
+
+footer .container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 991px) {
+    footer .container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+}
+
+footer .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+}
+
+@media (max-width: 991px) {
+    footer .left-column {
+        width: 100%;
+    }
+}
+
+footer .profile-section {
+    display: flex;
+    margin-top: 21px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    footer .profile-section {
+        margin-top: 40px;
+    }
+}
+
+footer .profile-info {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 991px) {
+    footer .profile-info {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+}
+
+footer .profile-image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    margin-left: 0;
+}
+
+@media (max-width: 991px) {
+    footer .profile-image {
+        width: 100%;
+    }
+}
+
+footer .profile-image img {
+    aspect-ratio: 1;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    footer .profile-image img {
+        margin-top: 21px;
+    }
+}
+
+footer .profile-details {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+}
+
+@media (max-width: 991px) {
+    footer .profile-details {
+        width: 100%;
+    }
+}
+
+footer .details-content {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin: 0;
+}
+
+/* @media (max-width: 991px) {
+    footer .details-content {
+        margin-top: 31px;
+    }
+} */
+
+footer .company-name {
+    text-align: left;
+    font: 25px 'Inknut Antiqua';
+    color: #fff;
+    opacity: 70%;
+    margin: 10px 0 0 -10px;
+}
+
+footer .tagline {
+    text-align: left;
+    font: 18px 'Inknut Antiqua';
+    color: #fff;
+    opacity: 70%;
+    margin: 0px 0 0 0px;
+}
+
+footer .contact-info {
+    font-family: 'Inknut Antiqua';
+    margin-top: 23px;
+    color: #fff;
+    margin: 10px 0 0 0px;
+}
+
+footer .gallery {
+    margin-left: 153px;
+    /* align-self: center; */
+    display: flex;
+    /* width: 357px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between; */
+}
+
+/* footer .gallery img {
+    object-fit: auto;
+    object-position: center;
+} */
+
+footer .gallery .img-ig {
+    aspect-ratio: 1.22;
+    width: 106px;
+}
+
+footer .gallery .img-wa {
+    aspect-ratio: 1.22;
+    width: 106px;
+}
+
+footer .gallery .img-fb {
+    aspect-ratio: 1.22;
+    width: 106px;
+}
+
+footer .gallery .img-yt {
+    aspect-ratio: 1.22;
+    width: 106px;
+}
+
+footer .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    footer .right-column {
+        width: 100%;
+    }
+}
+
+footer .schedule {
+    background-color: #172b3a;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 44px 48px;
+    border-radius: 84px;
+}
+
+@media (max-width: 991px) {
+    footer .schedule {
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+
+footer .schedule h2 {
+    text-align: left;
+    font: 700 25px 'Inknut Antiqua';
+}
+
+footer .schedule p {
+    margin: 9px 0 0 12px;
+    font: 400 15px 'Inknut Antiqua';
+    opacity: 70%;
+}
+
+footer .schedule .visit-us {
+    background-color: rgba(61, 160, 234, 1);
+    text-align: center;
+    padding: 22px 46px;
+    font: 600 20px 'Inknut Antiqua';
+    border-radius: 84px;
+    margin-top: 12px;
+}
+
+
